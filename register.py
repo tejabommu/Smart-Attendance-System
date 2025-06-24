@@ -14,7 +14,7 @@ def initialize_database():
     conn = mysql.connector.connect(
         host='127.0.0.1',
         user='root',
-        password='Chaitanya@11'
+        password='xxxx'
     )
     cursor = conn.cursor()
 
@@ -53,7 +53,7 @@ def save_student_info(student_id, name, course, department, section):
     conn = mysql.connector.connect(
         host='127.0.0.1',
         user='root',
-        password='Chaitanya@11',
+        password='xxxx',
         database='face_embeddings'
     )
     cursor = conn.cursor()
@@ -76,7 +76,7 @@ def save_embedding_to_db(student_id, embedding):
     conn = mysql.connector.connect(
         host='127.0.0.1',
         user='root',
-        password='Chaitanya@11',
+        password='xxxx',
         database='face_embeddings'
     )
     cursor = conn.cursor()
