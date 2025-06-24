@@ -17,7 +17,7 @@ def load_embeddings_from_db():
     conn = mysql.connector.connect(
         host='127.0.0.1',  # Change if your MySQL server is on a different host
         user='root',  # Your MySQL username
-        password='Chaitanya@11',  # Your MySQL password
+        password='xxxx',  # Your MySQL password
         database='face_embeddings'  # Your MySQL database name
     )
     cursor = conn.cursor()
@@ -45,7 +45,7 @@ def initialize_attendance_table():
     conn = mysql.connector.connect(
         host='127.0.0.1',  # Change if your MySQL server is on a different host
         user='root',  # Your MySQL username
-        password='Chaitanya@11',  # Your MySQL password
+        password='xxxx',  # Your MySQL password
         database='face_embeddings'  # Your MySQL database name
     )
     cursor = conn.cursor()
@@ -127,7 +127,7 @@ def record_attendance(employee_id):
         conn = mysql.connector.connect(
             host='127.0.0.1',
             user='root',
-            password='Chaitanya@11',
+            password='xxxx',
             database='face_embeddings'
         )
         cursor = conn.cursor()
